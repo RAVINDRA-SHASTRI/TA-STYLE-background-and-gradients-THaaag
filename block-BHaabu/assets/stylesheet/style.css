@@ -1,0 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* PAGE STYLE */
+*,
+*::before,
+*::after {
+    box-sizing:border-box;
+}
+body {
+	font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+	background-size: cover;
+	background:url(../media/back.jpg) no-repeat;
+	padding-bottom:60px;
+	background-attachment: fixed;
+}
+.container {
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex {align-items: center;align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header {
+	
+	text-align: center;
+}
+h1 {
+	color:fuchsia;
+	font-size: 20px;
+	font-weight: 700;
+}
+.box {
+	width:30%;
+	height: 300px;
+	border-radius: 6px;
+	background:#fff;
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+}
+.box-1 {
+	background-color: crimson;
+}
+.box-2 {
+	background-image: linear-gradient(to right,#000,#F32F47 70%);
+}
+.box-3 {
+	background-image:radial-gradient(#F32F47,#000)
+}
+.margin-top {
+	margin-top: 60px;
+}.big-box {
+	width: 100%;
+	height: 500px;
+	background:linear-gradient(to right bottom transparent,
+  rgba(237,20,62,0.5))url(../media/p-small.jpg);
+	background-image:url(../media/p.jpg);
+
+}
