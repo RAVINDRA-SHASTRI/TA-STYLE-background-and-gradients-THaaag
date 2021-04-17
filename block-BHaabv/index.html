@@ -1,0 +1,195 @@
+<!-- - Create a layout according to the design shown below.
+
+![Backgrounds and gradients level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/background-and-gradients/ex-2.jpg)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-and-gradients-2</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/1ccbc6b453.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <header class="header">
+        <div class="container flex">
+            <div>
+                <h1>
+                    Social Media Dashboard
+                </h1>
+                <p>Total Followers:23,004</p>
+            </div>
+            <div class="flex">
+                <a href="#">Dark Mode</a>
+                <div class="circle-one">
+                    <div class="circle-two"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container flex">
+                <div class="box">
+                  <i class="fab fa-facebook-square facebook"></i>
+                  <span class="text-2">@nathanf</span>
+                  <h2>1987</h2>
+                  <p class="text">FOLLOWERS</p>
+                  <a href="#"><i class="fas fa-sort-up ft"></i></a>
+                  <span class="ft">12 Today</span>  
+                </div>
+                
+                <div class="box">
+                    <i class="fab fa-twitter twitter"></i>
+                  <span class="text-2">@nathanf</span>
+                  <h2>1044</h2>
+                  <p class="text">FOLLOWERS</p>
+                  <a href="#"><i class="fas fa-sort-up ft"></i></a>
+                  <span class="ft">99 Today</span>  
+                </div>
+
+                <div class="box box-b-1">
+                    <i class="fab fa-instagram instagram"></i>
+                  <span class="text-2">@realnathanf</span>
+                  <h2>11k</h2>
+                  <p class="text">FOLLOWERS</p>
+                  <a href="#"><i class="fas fa-sort-up ft"></i></a>
+                  <span class="ft">1099 Today</span>  
+                </div>
+
+                <div class="box box-b-2">
+                    <i class="fas fa-play-circle youtube"></i>
+                    <!-- <i class="fab fa-youtube youtube"></i> -->
+                  <span class="text-2">NathanF.</span>
+                  <h2>8239</h2>
+                  <p class="text">SUBSCRIBERS</p>
+                  <a href="#"><i class="fas fa-sort-down ft-red"></i></a>
+                  <span class="ft-red">144 Today</span>  
+                </div>
+            </div>
+        </section>
+        <section>
+            <header class="header">
+                <h3>Overview-Today</h3>
+            </header>
+            <div class="container flex">
+                <div class="small-box">
+                    <div class="flex">
+                        <p class="text-2">Page Views</p>
+                        <i class="fab fa-facebook-square facebook"></i>
+                    </div>
+                    <div class="flex">
+                    <h4>87</h4>
+                    <div>
+                        <a href="#"><i class="fas fa-sort-up ft"></i></a>
+                        <span class="ft">3%</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="small-box">
+                    <div class="flex">
+                        <p class="text-2">Likes</p>
+                        <i class="fab fa-facebook-square facebook"></i>
+                    </div>
+                    <div class="flex">
+                    <h4>52</h4>
+                    <div>
+                        <a href="#"><i class="fas fa-sort-down ft-red"></i></a>
+                        <span class="ft-red">2%</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="small-box">
+                    <div class="flex">
+                        <p class="text-2">Likes</p>
+                        <i class="fab fa-instagram instagram"></i>
+                    </div>
+                    <div class="flex">
+                    <h4>5462</h4>
+                    <div>
+                        <a href="#"><i class="fas fa-sort-up ft"></i></a>
+                        <span class="ft">2257%</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="small-box">
+                    <div class="flex">
+                        <p class="text-2">Profile Views</p>
+                        <i class="fab fa-instagram instagram"></i>
+                    </div>
+                    <div class="flex">
+                    <h4>52k</h4>
+                    <div>
+                        <a href="#"><i class="fas fa-sort-up ft"></i></a>
+                        <span class="ft">1375%</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container flex">
+                <div class="small-box">
+                    <div class="flex">
+                        <p class="text-2">Retweets</p>
+                        <i class="fab fa-twitter twitter"></i>
+                    </div>
+                    <div class="flex">
+                    <h4>117</h4>
+                    <div>
+                        <a href="#"><i class="fas fa-sort-up ft"></i></a>
+                        <span class="ft">303%</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="small-box">
+                    <div class="flex">
+                        <p class="text-2">Likes</p>
+                        <i class="fab fa-twitter twitter"></i>
+                    </div>
+                    <div class="flex">
+                    <h4>507</h4>
+                    <div>
+                        <a href="#"><i class="fas fa-sort-up ft"></i></a>
+                        <span class="ft">553%</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="small-box">
+                    <div class="flex">
+                        <p class="text-2">Likes</p>
+                        <i class="fas fa-play-circle youtube"></i>
+                        <!-- <i class="fab fa-youtube youtube"></i> -->
+                    </div>
+                    <div class="flex">
+                    <h4>107</h4>
+                    <div>
+                        <a href="#"><i class="fas fa-sort-down ft-red"></i></a>
+                        <span class="ft-red">19%</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="small-box">
+                    <div class="flex">
+                        <p class="text-2">Total Views</p>
+                        <i class="fas fa-play-circle youtube"></i>
+                        <!-- <i class="fab fa-youtube youtube"></i> -->
+                    </div>
+                    <div class="flex">
+                    <h4>1407</h4>
+                    <div>
+                        <a href="#"><i class="fas fa-sort-down ft-red"></i></a>
+                        <span class="ft-red">12%</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
