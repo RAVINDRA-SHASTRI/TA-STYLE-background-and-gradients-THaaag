@@ -56,10 +56,10 @@ body {
 	font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     font-size: 16px;
-    background-color: #20222F;
+    background-color: #1D2029;
 }
 h1,h2,h3,h4,h5,h6 {
-	font-family:"Roboto", serif;
+	font-family: serif;
 }
 .container {
     max-width: 1370px;
@@ -71,13 +71,18 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: space-between;
     align-items: center;
 }
-.center {
+/* .center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
+} */
 .justify-content {
     justify-content: space-around;
+}
+.header {
+    padding:40px 0;
+    background-color: #20232f;
+    padding-bottom:16px
 }
 .header h1 {
     font-size: 24px;
@@ -85,32 +90,33 @@ h1,h2,h3,h4,h5,h6 {
     margin-left: 18px;
     color: #fff;
 }
-.header a,p {
-    font-size: 12px;
+.header ,h5 {
+    font-size: 16px;
     color: #fff;
     text-decoration: none;
     margin-right: 8px;
 }
-.header p {
+ h5 {
     margin-left: 18px;
 }
-.header a {
-    margin-right:16px ;
+.btn-container span{
+    color: #718cb2;
 }
-.circle-one {
-    width: 52px;
+.btn {
+    width: 56px;
+    height: 26px;
+    margin-left: 16px;
+    border-radius: 20px;
+    padding-left: 4px;
+    background:linear-gradient(to right,#3db2b9,#3bd192);
+}
+.circle {
+    width: 24px;
     height: 24px;
-    margin-right: 18px;
-    border-radius: 40%;
-    background-color:#42C3A1;
-}
-.circle-two {
-    width: 18px;
-    height: 18px;
-    margin-top: 3px;
-    margin-left: 4px;
+    /* margin-top: 3px; */
+    /* margin-left: 4px; */
     border-radius: 50%;
-    background-color:#20222F;
+    background-color: #252A45;
 }
 h2 {
     font-size: 48px;
@@ -137,7 +143,7 @@ h2 {
     color:#097ff5;
 }
 .instagram {
-    color: #f57867;
+    background-color:linear-gradient(to right #fac26f,#c75992);
 }
 .youtube {
     width: 20px;
@@ -167,6 +173,9 @@ h3 {
     font-weight: bold;
     margin-left: 52px;
     color: #fff;
+}
+.header-overview {
+    background-color: #1D2029;
 }
 h4 {
     font-size: 32px;
