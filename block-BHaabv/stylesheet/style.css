@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* PAGE STYLE */
+*,
+*::before,
+*::after {
+    box-sizing:border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: #20222F;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family:"Roboto", serif;
+}
+.container {
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.justify-content {
+    justify-content: space-around;
+}
+.header h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 18px;
+    color: #fff;
+}
+.header a,p {
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 8px;
+}
+.header p {
+    margin-left: 18px;
+}
+.header a {
+    margin-right:16px ;
+}
+.circle-one {
+    width: 52px;
+    height: 24px;
+    margin-right: 18px;
+    border-radius: 40%;
+    background-color:#42C3A1;
+}
+.circle-two {
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+    margin-left: 4px;
+    border-radius: 50%;
+    background-color:#20222F;
+}
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: #252B43;
+    margin: 20px 20px;
+    border-top: 3px solid #097ff5;
+    padding: 40px;
+    text-align: center;
+    vertical-align: middle;
+    color:#FEFEFF
+}
+.box-b-1 {
+    border-top: 3px solid #f57867;
+}
+.box-b-2 {
+    border-top: 3px solid #B31F2D;;
+}
+.facebook,.twitter {
+    color:#097ff5;
+}
+.instagram {
+    color: #f57867;
+}
+.youtube {
+    width: 20px;
+    height: 20px;
+    color: #f30b22;
+    border-radius: 50%;
+}
+.ft {
+    font-size: 12px;
+    color:#17eec3; 
+}
+.ft-red {
+    font-size:12px;
+    color: #f30b22;
+}
+.text {
+    font-size: 12px;
+    color:#93a8f3;
+    letter-spacing: 2px;
+}
+.text-2 {
+    font-size: 12px;
+    color:#93a8f3;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 52px;
+    color: #fff;
+}
+h4 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.small-box {
+width: 20%;
+height: 100px;
+background-color: #252B43;
+margin: 20px 20px;
+padding: 20px;
+text-align: center;
+vertical-align: middle;
+color: #fff;
+}
